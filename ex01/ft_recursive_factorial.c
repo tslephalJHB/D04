@@ -10,22 +10,24 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_recursive_factorial(int nb)
+int     ft_recursive_factorial(int nb)
 {
-    int factorial;
+        int factorial;
     
-    factorial = 1;
-    if (nb > 0 && nb < 13)
-    {
-        factorial = factorial * nb;
-        return(factorial * ft_recursive_factorial(nb - 1));
-    }
-    else if (nb == 0)
-    {
-        return (1);
-    }
-    else
-    {
-        return(0);
-    }
+        factorial = 1;
+        if (nb > 0 && nb < 13)
+        {
+            factorial = factorial * nb;
+            return(factorial * ft_recursive_factorial(nb - 1));
+        }
+        
+        else if (nb == 0)
+        {
+            return (1);
+        }
+    
+        else
+        {
+            return(0);
+        }
 }
