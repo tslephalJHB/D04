@@ -24,8 +24,12 @@ int ft_iterative_factorial(int nb)
         }
         return(factorial);
     }
+    else if (nb == 0)
+    {
+        return (1);
+    }
     else
     {
-        return (0);
+        return(0);
     }
 }
