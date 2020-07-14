@@ -15,7 +15,7 @@ int ft_iterative_factorial(int nb)
     int factorial;
     
     factorial = 1;
-    if (nb > 0 && nb < 20)
+    if (nb > 0 && nb < 13)
     {
         while(nb > 0)
         {
