@@ -22,7 +22,8 @@ int	ft_iterative_power(int nb, int power)
             		_power = _power * nb;
             		power--;
         	}
-        	return(_power);
+        	
+		return(_power);
     	}
     
 	else if(power == 0)
