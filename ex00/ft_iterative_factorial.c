@@ -10,26 +10,29 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_iterative_factorial(int nb)
+int     ft_iterative_factorial(int nb)
 {
-    int factorial;
+        int factorial;
     
-    factorial = 1;
-    if (nb > 0 && nb < 13)
-    {
-        while(nb > 0)
+        factorial = 1;
+        if (nb > 0 && nb < 13)
         {
-            factorial = factorial * nb;
-            nb = nb -1;
+            while(nb > 0)
+            {
+                factorial = factorial * nb;
+                nb = nb -1;
+            }
+            
+            return(factorial);
         }
-        return(factorial);
-    }
-    else if (nb == 0)
-    {
-        return (1);
-    }
-    else
-    {
-        return(0);
-    }
+    
+        else if (nb == 0)
+        {
+            return (1);
+        }
+    
+        else
+        {
+            return(0);
+        }
 }
