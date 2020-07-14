@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_recursive_power(int nb, int power)
+int	ft_recursive_power(int nb, int power)
 {
-		int _power;
+	int _power;
 
     	if(power > 0)
     	{
